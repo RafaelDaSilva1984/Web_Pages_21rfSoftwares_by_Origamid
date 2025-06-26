@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 50px;
+  color: #000;
+}
+
+/* exercício 01 cinema */
+.titulo {
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+}
+
+.inicio {
+  text-decoration: none;
+}
+
+.link_estados {
+  color: seagreen;
+  text-decoration: none;
+}
+
+.hoje {
+  color: darkred;
+  font-size: 20px;
+}
+
+.amanha {
+  color: darkblue;
+  font-size: 20px;
+}
+
+/* exercício 02 carros e bikes */
+
+/*div texto*/
+.carros_bikes h1 {
+  text-align: center;
+}
+
+/*div carros e bikes */
+.veiculos {
+  background-color: #111;
+  color: #fff;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+/*span nas divs*/
+.valor {
+  color: #febe01;
+}
+
+/*p*/
+.modelo_ano {
+  color: #b2b2b2;
+}
+
+/*h2*/
+.veiculo {
+  margin: 0;
+}
+/* button carro */
+.button_link_a {
+  display: inline-block;
+  background-color: #febe01;
+  color: #332200;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
