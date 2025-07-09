@@ -1,0 +1,35 @@
+html {
+  margin: 0;
+  font-family: Arial;
+}
+body {
+  background-color: #c8c8c8;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* place-content: center;
+ */
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #d7d7d7;
+  border: 1px solid #e7e7e7;
+}
+.grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+h2 {
+  background-color: #e7e7e7;
+  border: 1px solid #d7d7d7;
+  padding: 20px;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}

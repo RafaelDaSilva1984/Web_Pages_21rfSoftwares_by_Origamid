@@ -1,0 +1,25 @@
+body {
+  background-color: #eeefff;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background: #efeaef;
+  color: #000;
+}
+
+h2,
+h4 {
+  background: #efeaef;
+}
